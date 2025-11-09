@@ -1,0 +1,82 @@
+{
+  "title": "Software Engineer Resume",
+  "template": "modern",
+  "personalInfo": {
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "San Francisco, CA",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "summary": "Passionate software engineer with 3+ years of experience in full-stack development. Proficient in Java, JavaScript, and modern web technologies. Strong problem-solving skills and a track record of delivering high-quality software solutions."
+  },
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science",
+      "fieldOfStudy": "Computer Science",
+      "startDate": "Aug 2018",
+      "endDate": "May 2022",
+      "grade": "3.8 GPA"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "position": "Software Engineer",
+      "type": "work",
+      "startDate": "Jun 2022",
+      "endDate": "Present",
+      "description": "Developed and maintained web applications using Java Spring Boot and React. Collaborated with cross-functional teams to deliver features on time. Improved application performance by 40% through code optimization."
+    },
+    {
+      "company": "StartupXYZ",
+      "position": "Software Development Intern",
+      "type": "internship",
+      "startDate": "Jun 2021",
+      "endDate": "Aug 2021",
+      "description": "Built RESTful APIs using Node.js and Express. Implemented user authentication and authorization. Worked with MongoDB for data persistence."
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-Commerce Platform",
+      "description": "Built a full-stack e-commerce platform with shopping cart, payment integration, and order management.",
+      "technologies": "Java, Spring Boot, React, MySQL, Stripe API",
+      "link": "https://github.com/johndoe/ecommerce"
+    },
+    {
+      "name": "Task Management App",
+      "description": "Developed a collaborative task management application with real-time updates and team collaboration features.",
+      "technologies": "Node.js, Express, MongoDB, Socket.io, Vue.js",
+      "link": "https://github.com/johndoe/taskmanager"
+    }
+  ],
+  "skills": [
+    "Java",
+    "JavaScript",
+    "Python",
+    "Spring Boot",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "MySQL",
+    "Git",
+    "Docker",
+    "AWS",
+    "REST APIs",
+    "Agile/Scrum"
+  ],
+  "achievements": [
+    {
+      "title": "Best Innovation Award",
+      "date": "2023",
+      "description": "Received company-wide recognition for developing an innovative solution that reduced deployment time by 60%."
+    },
+    {
+      "title": "Hackathon Winner",
+      "date": "2021",
+      "description": "First place in university hackathon for building an AI-powered study assistant application."
+    }
+  ]
+}

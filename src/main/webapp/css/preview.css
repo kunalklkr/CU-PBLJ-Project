@@ -1,0 +1,138 @@
+.preview-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.resume-preview {
+    background: white;
+    padding: 3rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    min-height: 1000px;
+}
+
+.resume-preview .header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #333;
+}
+
+.resume-preview .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.resume-preview .contact-info,
+.resume-preview .links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+.resume-preview .contact-info span:not(:last-child)::after,
+.resume-preview .links span:not(:last-child)::after {
+    content: " | ";
+    margin-left: 1rem;
+}
+
+.resume-preview .section {
+    margin-bottom: 2rem;
+}
+
+.resume-preview .section h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ddd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resume-preview .item {
+    margin-bottom: 1.5rem;
+}
+
+.resume-preview .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.25rem;
+}
+
+.resume-preview .item-header strong {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.resume-preview .date {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.resume-preview .item p {
+    margin-top: 0.5rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.resume-preview .skills-list {
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Modern Template Styles */
+.resume-preview.modern .header {
+    text-align: left;
+    border-bottom: 3px solid #667eea;
+}
+
+.resume-preview.modern .header h1 {
+    color: #667eea;
+}
+
+.resume-preview.modern .contact-info,
+.resume-preview.modern .links {
+    justify-content: flex-start;
+}
+
+.resume-preview.modern .section h2 {
+    color: #667eea;
+    border-bottom: 2px solid #667eea;
+}
+
+.resume-preview.modern .item-header strong {
+    color: #667eea;
+}
+
+/* Classic Template Styles */
+.resume-preview.classic .header {
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+}
+
+.resume-preview.classic .section h2 {
+    font-family: 'Times New Roman', serif;
+    color: #2c3e50;
+}
+
+@media print {
+    .navbar {
+        display: none;
+    }
+    
+    .preview-container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .resume-preview {
+        box-shadow: none;
+        padding: 1rem;
+    }
+}
