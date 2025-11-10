@@ -40,9 +40,6 @@ Resume Builder is a comprehensive web application that empowers users to create 
 
 3.  **Build and run the application**
     mvn clean tomcat7:run
-    ```
 
 4.  **Access the application**
     Open your browser and go to `http://localhost:8080/resume-builder`
-
-## Project Structure
